@@ -2,7 +2,7 @@
 # ERPNext related configs
 ERPNEXT_API_KEY = ''
 ERPNEXT_API_SECRET = ''
-ERPNEXT_URL = 'http://dev.local:8000'
+ERPNEXT_URL = 'http://192.168.103.125'
 
 
 # operational configs
@@ -17,8 +17,8 @@ IMPORT_START_DATE = None # format: '20190501'
     #- clear_from_device_on_fetch: if set to true then attendance is deleted after fetch is successful.
                                     #(Caution: this feature can lead to data loss if used carelessly.)
 devices = [
-    {'device_id':'test_1','ip':'192.168.0.209', 'punch_direction': None, 'clear_from_device_on_fetch': False},
-    {'device_id':'test_2','ip':'192.168.2.209', 'punch_direction': None, 'clear_from_device_on_fetch': False}
+    {'device_id':'test_1','ip':'192.168.100.184', 'punch_direction': None, 'clear_from_device_on_fetch': False},
+    {'device_id':'test_2','ip':'192.168.100.185', 'punch_direction': None, 'clear_from_device_on_fetch': False}
 ]
 
 # Configs updating sync timestamp in the Shift Type DocType
